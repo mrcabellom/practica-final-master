@@ -1,0 +1,13 @@
+# entorno
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# salida del pipeline (se regenera con python tasks.py run)
+output/
+*.db
+
+# secretos y configuración personal
+.env
+.claude/settings.local.json

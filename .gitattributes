@@ -1,0 +1,4 @@
+# Same line endings on Windows, macOS and Linux: the data files are compared
+# byte by byte, so Git must never rewrite them.
+* text=auto eol=lf
+*.db binary

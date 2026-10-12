@@ -1,0 +1,34 @@
+[
+  {
+    "refund_id": "R-1036",
+    "order_id": "K-10215",
+    "refunded_at": "2026-09-10T23:10:00Z",
+    "refund_amount": 9.95,
+    "currency": "EUR",
+    "reason": "talla incorrecta"
+  },
+  {
+    "refund_id": "R-1044",
+    "order_id": "K-10101",
+    "refunded_at": "2026-09-10T15:35:00Z",
+    "refund_amount": 35.42,
+    "currency": "GBP",
+    "reason": "cambio de opinión"
+  },
+  {
+    "refund_id": "R-1045",
+    "order_id": "K-10130",
+    "refunded_at": "2026-09-10T07:57:00Z",
+    "refund_amount": 17.3,
+    "currency": "EUR",
+    "reason": "producto defectuoso"
+  },
+  {
+    "refund_id": "R-1046",
+    "order_id": "K-10144",
+    "refunded_at": "2026-09-10T20:34:00Z",
+    "refund_amount": 28.23,
+    "currency": "EUR",
+    "reason": "llegó tarde"
+  }
+]

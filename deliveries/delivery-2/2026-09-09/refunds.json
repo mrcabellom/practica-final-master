@@ -1,0 +1,50 @@
+[
+  {
+    "refund_id": "R-1032",
+    "order_id": "K-10154",
+    "refunded_at": "2026-09-09T10:30:00Z",
+    "refund_amount": 35.0,
+    "currency": "EUR",
+    "reason": "pedido duplicado por error"
+  },
+  {
+    "refund_id": "R-1034",
+    "order_id": "K-19998",
+    "refunded_at": "2026-09-09T16:00:00Z",
+    "refund_amount": 18.0,
+    "currency": "EUR",
+    "reason": "no era lo esperado"
+  },
+  {
+    "refund_id": "R-1035",
+    "order_id": "K-10155",
+    "refunded_at": "2026-09-09T11:45:00Z",
+    "refund_amount": 20.0,
+    "currency": "EUR",
+    "reason": "talla incorrecta"
+  },
+  {
+    "refund_id": "R-1041",
+    "order_id": "K-10161",
+    "refunded_at": "2026-09-09T19:15:00Z",
+    "refund_amount": 40.94,
+    "currency": "EUR",
+    "reason": "pedido duplicado por error"
+  },
+  {
+    "refund_id": "R-1042",
+    "order_id": "K-10047",
+    "refunded_at": "2026-09-09T18:42:00Z",
+    "refund_amount": 3.58,
+    "currency": "EUR",
+    "reason": "talla incorrecta"
+  },
+  {
+    "refund_id": "R-1043",
+    "order_id": "K-10065",
+    "refunded_at": "2026-09-09T16:09:00Z",
+    "refund_amount": 23.35,
+    "currency": "EUR",
+    "reason": "pedido duplicado por error"
+  }
+]

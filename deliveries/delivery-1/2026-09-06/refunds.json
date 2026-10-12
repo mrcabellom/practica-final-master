@@ -1,0 +1,58 @@
+[
+  {
+    "refund_id": "R-1007",
+    "order_id": "K-10068",
+    "refunded_at": "2026-09-06T13:45:00Z",
+    "amount": 15.5,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1006",
+    "order_id": "K-10157",
+    "refunded_at": "2026-09-05T16:20:00Z",
+    "amount": 12.0,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1008",
+    "order_id": "K-10152",
+    "refunded_at": "2026-09-06T22:40:00Z",
+    "amount": 20.0,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1024",
+    "order_id": "K-10015",
+    "refunded_at": "2026-09-06T16:29:00Z",
+    "amount": 74.53,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1025",
+    "order_id": "K-10070",
+    "refunded_at": "2026-09-06T12:12:00Z",
+    "amount": 26.98,
+    "currency": "USD"
+  },
+  {
+    "refund_id": "R-1026",
+    "order_id": "K-10027",
+    "refunded_at": "2026-09-06T14:42:00Z",
+    "amount": 42.14,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1027",
+    "order_id": "K-10083",
+    "refunded_at": "2026-09-06T17:30:00Z",
+    "amount": 72.62,
+    "currency": "EUR"
+  },
+  {
+    "refund_id": "R-1028",
+    "order_id": "K-10090",
+    "refunded_at": "2026-09-06T17:29:00Z",
+    "amount": 37.23,
+    "currency": "GBP"
+  }
+]

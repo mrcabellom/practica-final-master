@@ -1,0 +1,1 @@
+"""Kivora daily sales pipeline."""

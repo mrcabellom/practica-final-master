@@ -2,9 +2,6 @@
 
 **Módulo:** Desarrollo asistido por agentes
 **Profesor:** Manuel Rodrigo Cabello Malagón
-**Tiempo estimado:** 10 horas para el núcleo (las ampliaciones opcionales, aparte)
-**Entrega:** [fecha], 23:59
-
 ---
 
 ## 1. Contexto
@@ -27,8 +24,7 @@ siguiente que llegue.
 
 ## 2. Material de partida
 
-El punto de partida es el repositorio plantilla
-[`mrcabellom/practica-final-master`](https://github.com/mrcabellom/practica-final-master).
+El punto de partida es este repositorio.
 Tu copia se llamará `kivora-pipeline` (apartado 7) y contiene:
 
 - datos de ejemplo de los tres primeros días en `data/inbox/`
@@ -45,7 +41,7 @@ igual en Windows, macOS y Linux: todas las órdenes se lanzan con `uv run`, que
 usa el Python del proyecto. No des nada por supuesto: ni la documentación ni
 los tests están necesariamente bien.
 
-## 3. Reglas del juego
+## 3. Instrucciones para la entrega.
 
 Estas reglas no son negociables. Incumplirlas impide evaluar parte de la
 práctica o penaliza.
@@ -319,9 +315,6 @@ Documento en Markdown con, al menos, estas secciones:
 **Sin cuenta de GitHub:** clona la plantilla en una carpeta llamada
 `kivora-pipeline`:
 
-```bash
-git clone https://github.com/mrcabellom/practica-final-master.git kivora-pipeline
-```
 
 Trabaja igual en local, con Git, y entrega un zip de la carpeta del
 repositorio **con la carpeta oculta `.git`**: ahí están el historial, los
@@ -396,34 +389,3 @@ Responde a una pregunta: si has usado bien los artefactos.
 **Ampliaciones:** hasta +1 (apartado 5). **Penalizaciones:** modificar los
 datos de entrada (−1) o subir secretos al repositorio (−0,5). Cambiar la
 interfaz de ejecución impide evaluar el resultado del pipeline.
-
-## 9. Preguntas frecuentes
-
-**¿Puedo usar GitHub Copilot, Cursor u OpenCode?**
-Sí, si lo documentas en la memoria y las instrucciones del proyecto sirven
-también para esa herramienta. Los mecanismos de extensión se evalúan igual.
-
-**¿Tengo que usar OpenSpec?**
-No. Es una ampliación. Si lo usas, sustituye a los documentos de
-`docs/specs/` en las fases 2 y 5. El resto de la práctica es igual.
-
-**¿Puedo cambiar la estructura del código o pasar de SQL a Python?**
-Sí. Solo son fijas la interfaz de ejecución, los ficheros de salida y las
-rutas de los entregables.
-
-**¿Puedo añadir dependencias?**
-Sí, con `uv add`. El pipeline tiene que funcionar con `uv sync` seguido de
-`uv run python -m kivora`.
-
-**¿Qué hago si el ticket no dice algo?**
-Lo que haría un buen profesional: detectarlo, decidir con criterio,
-documentarlo en la sección de aclaraciones y probarlo.
-
-**Me he equivocado de tag.**
-Puedes moverlo con `git tag -f phase-N` (y, si usas GitHub,
-`git push -f origin phase-N`) antes de la entrega. Lo que no se reescribe
-son los commits.
-
-**Una fase me ha salido mal.**
-Sigue adelante y cuéntalo en la memoria. Un problema bien diagnosticado y
-explicado vale más que uno escondido.
